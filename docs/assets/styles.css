@@ -1,0 +1,14 @@
+/* Header / navbar */
+.navbar {
+  background-color: #F19200 !important;
+}
+
+/* Título del sitio */
+.navbar-brand, .navbar-nav .nav-link {
+  color: white !important;
+}
+
+/* Hover */
+.navbar-nav .nav-link:hover {
+  color: #2b2b2b !important;
+}

@@ -2,3 +2,4 @@
 /.quarto-cache/
 *.log
 .DS_Store
+/.quarto/
