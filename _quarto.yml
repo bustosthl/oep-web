@@ -5,6 +5,7 @@ project:
   
 website:
   title: "Observatorio de Economía Política"
+  site-url: https://bustosthl.github.io/oep-web/
   navbar:
     left:
       - href: index.qmd
