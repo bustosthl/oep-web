@@ -1,6 +1,6 @@
 # Observatorio de Economía Política
 
-Bienvenidos al sitio del observatorio.
+¡Sitio en construcción!
 
 ![](assets/images/oep_logo.png)
 

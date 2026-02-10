@@ -5,18 +5,18 @@ project:
   
 website:
   title: "Observatorio de Economía Política"
-  site-url: https://bustosthl.github.io/oep-web/
+  site-url: https://www.oepsociologia.ar/
   navbar:
     left:
       - href: index.qmd
         text: Inicio
-      - href: about/index.qmd
-        text: Sobre nosotros
-      - href: notas.qmd
-        text: Notas
-      - href: publicaciones/index.qmd
-        text: Publicaciones
-  search: true
+#      - href: about/index.qmd
+#        text: Sobre nosotros
+#      - href: notas.qmd
+#        text: Notas
+#      - href: publicaciones/index.qmd
+#        text: Publicaciones
+#  search: true
 
 format:
   html:
