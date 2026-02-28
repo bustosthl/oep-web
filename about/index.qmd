@@ -1,3 +1,66 @@
-# Sobre nosotros
+---
+title: "Observatorio de Economía Política"
+subtitle: "Facultad de Ciencias Sociales – Universidad de Buenos Aires"
+format: 
+  html:
+    toc: false
+    theme: cosmo
+---
 
-Somos un observatorio interdisciplinario.
+Las políticas económicas, la discusión en torno a ellas, los datos que posibilitan su comprensión y su vínculo con la situación internacional y regional merecen contar con un espacio específico dentro de la Facultad de Ciencias Sociales. Un espacio dedicado al análisis sistemático, a la producción de indicadores y datos originales, y a la elaboración de materiales gráficos y audiovisuales que permitan intervenir de manera rigurosa en el debate público.
+
+El **Observatorio de Economía Política (OEP)** se propone como ese ámbito.
+
+Un espacio de investigación, formación y extensión orientado al estudio de las políticas económicas aplicadas en la Argentina —tanto en el pasado como en el presente— y a la comprensión de sus consecuencias sociales.
+
+El OEP busca, además, constituirse como un punto de encuentro para la circulación y difusión de investigaciones desarrolladas por docentes, investigadores y equipos de la Facultad que trabajen sobre problemáticas vinculadas a la economía política.
+
+## Investigación y producción de conocimiento
+
+El Observatorio desarrolla y articula proyectos de investigación centrados en:
+
+- el análisis de políticas económicas,
+- la construcción de indicadores propios,
+- la sistematización de información estadística,
+- la elaboración de informes de coyuntura,
+- y la participación en jornadas académicas y espacios de debate.
+
+Se propone fortalecer el vínculo entre investigación académica y discusión pública, generando materiales accesibles sin resignar rigurosidad.
+
+## Docencia de grado
+
+El OEP funciona también como espacio de articulación académica para la materia vinculada a economía política en la Facultad de Ciencias Sociales (UBA), promoviendo la integración entre docencia e investigación.
+
+La materia constituye un espacio formativo donde se abordan críticamente las principales tradiciones de la economía política argentina, latinoamericana e internacional, así como los debates contemporáneos en torno al desarrollo, la restricción externa, la inflación, la desigualdad y las transformaciones del capitalismo actual.
+
+## Diplomatura
+
+El Observatorio impulsa la **Diplomatura en Cuestiones socioeconómicas fundamentales de la Argentina actual. Políticas públicas, representaciones sociales y tendencias globales**, concebida como un espacio de formación abierto a estudiantes, graduados y público interesado.
+
+La diplomatura articula herramientas teóricas y análisis empírico, integrando:
+
+- clases teóricas,
+- análisis de casos,
+- trabajo con datos,
+- y producción de materiales propios.
+
+Se orienta a fortalecer la formación en economía política desde una perspectiva situada y crítica.
+
+## Extensión, medios y debate público
+
+El OEP entiende la producción de conocimiento como una práctica inseparable de la intervención pública.
+
+Por ello, desarrolla:
+
+- informes y materiales de divulgación,
+- participación en medios de comunicación,
+- charlas y conversatorios,
+- actividades con organizaciones sociales, políticas y sindicales.
+
+El Observatorio busca contribuir al debate social sobre las políticas económicas, acercando herramientas analíticas y datos que permitan enriquecer la discusión pública.
+
+## Un espacio abierto
+
+El Observatorio de Economía Política se concibe como un ámbito plural, de producción colectiva y de intercambio entre investigación, docencia y extensión.
+
+Invitamos a estudiantes, docentes, investigadores y organizaciones interesadas en la economía política argentina a conocer, participar y contribuir a este espacio.

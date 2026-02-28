@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Equipo OEP">
 
-<title>Observatorio de Economía Política</title>
+<title>2025 Jornadas de Sociología (UBA) – Observatorio de Economía Política</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +24,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -66,9 +69,67 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Buscar"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<link rel="stylesheet" href="assets/styles.css">
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../../assets/styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -78,7 +139,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Observatorio de Economía Política</span>
     </a>
   </div>
@@ -89,7 +150,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../../../index.html"> 
 <span class="menu-text">Inicio</span></a>
   </li>  
 </ul>
@@ -122,36 +183,468 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categorías</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Todas <span class="quarto-category-count">(17)</span></div><div class="category" data-category="Jornadas 2026">Jornadas 2026 <span class="quarto-category-count">(17)</span></div></div></div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
-
-
-
-<div class="hero-banner">
-<div class="content-block">
-<div class="hero-text">
-<img src="assets/images/oep-logo-transparente.png" style="max-width:180px; margin-bottom:20px;">
-<h1>
-Observatorio de Economía Política
-</h1>
-<p class="lead">
-Sitio en construcción<br>
-</p>
-<!--<a href="/notas.html" class="btn btn-primary btn-lg">
-Ver notas
-</a> -->
-</div>
-</div>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">2025 Jornadas de Sociología (UBA)</h1>
+<p class="subtitle lead">Una mirada desde el Observatorio de Economía Política</p>
 </div>
 
 
 
-</main> <!-- /main -->
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Autor/a</div>
+    <div class="quarto-title-meta-contents">
+             <p>Equipo OEP </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Fecha de publicación</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">31 de agosto de 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Estos son los trabajos presentados en la mesa del Observatorio durante las Jornadas de Investigación de la Facultad de Ciencias Sociales del año 2025.</p>
+<hr>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="Jornadas 2026">
+<a href="trabajos_pdf/Abraham-mesa22.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Supervivencia en tiempos de crisis
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Jornadas 2026'); return false;">
+Jornadas 2026
+</div>
+</div>
+<div class="card-text listing-description">
+Análisis de los cambios en las prácticas económicas en momentos de crisis
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Abraham
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="Jornadas 2026">
+<a href="trabajos_pdf/Butin-mesa22.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+¿Quién cuida a la que cuida?
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Jornadas 2026'); return false;">
+Jornadas 2026
+</div>
+</div>
+<div class="card-text listing-description">
+Tareas de cuidado e invisibilización perpetua de las trabajadoras de la salud pública provincial de Neuquén, en el contexto de la motosierra.
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Butin
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="Jornadas 2026">
+<a href="trabajos_pdf/Cannella-mesa22.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Las nuevas formas del shock
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Jornadas 2026'); return false;">
+Jornadas 2026
+</div>
+</div>
+<div class="card-text listing-description">
+poder, economía y subjetividad en la era hipermoderna
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Cannella
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="Jornadas 2026">
+<a href="trabajos_pdf/Cargnel-mesa22.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+El Banco Central de Milei
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Jornadas 2026'); return false;">
+Jornadas 2026
+</div>
+</div>
+<div class="card-text listing-description">
+entre la detonación y el saneamiento
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Cargnel
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="Jornadas 2026">
+<a href="trabajos_pdf/Carrera Pereyra-mesa22.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Crónica de una privatización anunciada
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Jornadas 2026'); return false;">
+Jornadas 2026
+</div>
+</div>
+<div class="card-text listing-description">
+¿qué pasó con el presupuesto de Agua y Saneamientos Argentinos después de 2023?
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Carrera Pereyra
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="Jornadas 2026">
+<a href="trabajos_pdf/Castillo &amp; Von Storch-mesa22.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Sociología de la inflación argentina
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Jornadas 2026'); return false;">
+Jornadas 2026
+</div>
+</div>
+<div class="card-text listing-description">
+Un abordaje a partir de estructuras y expectativas
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Castillo &amp; Von Storch
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-categories="Jornadas 2026">
+<a href="trabajos_pdf/Cattaneo-mesa22.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Impuestos, tiempo y moral
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Jornadas 2026'); return false;">
+Jornadas 2026
+</div>
+</div>
+<div class="card-text listing-description">
+prácticas cotidianas en contextos de crisis.
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Cattaneo
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="7" data-categories="Jornadas 2026">
+<a href="trabajos_pdf/Fiszlejder-mesa22.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+“Querida, agrandé los precios”
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Jornadas 2026'); return false;">
+Jornadas 2026
+</div>
+</div>
+<div class="card-text listing-description">
+Un análisis sobre las narrativas de Página 12 y Clarín acerca del origen y desarrollo del fenómeno inflacionario entre 2016 y 2023
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Fiszlejder
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="8" data-categories="Jornadas 2026">
+<a href="trabajos_pdf/Forlenza-mesa22.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Impacto del 5G en los Modelos de Producción y Empleo
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Jornadas 2026'); return false;">
+Jornadas 2026
+</div>
+</div>
+<div class="card-text listing-description">
+en los países de Argentina y México en el periodo 2020-2024.
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Forlenza
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="9" data-categories="Jornadas 2026">
+<a href="trabajos_pdf/Gimenez-mesa22.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Trayectorias Sociales del Crédito
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Jornadas 2026'); return false;">
+Jornadas 2026
+</div>
+</div>
+<div class="card-text listing-description">
+El impacto y la circulación de las líneas de financiamiento del Banco de la Gente en la Ciudad de Córdoba (2023-2025)
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Gimenez
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="10" data-categories="Jornadas 2026">
+<a href="trabajos_pdf/Laffitte-mesa22.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Un gran recurso ¿para qué estrategia?
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Jornadas 2026'); return false;">
+Jornadas 2026
+</div>
+</div>
+<div class="card-text listing-description">
+bloque histórico y políticas públicas en la explotación del gas argentino (2016-2024)
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Laffitte
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="11" data-categories="Jornadas 2026">
+<a href="trabajos_pdf/Mascaro Eskin-mesa22.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+“Magia, fiesta y fantasía”
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Jornadas 2026'); return false;">
+Jornadas 2026
+</div>
+</div>
+<div class="card-text listing-description">
+Las ideas de los perjudicados de las grandes transferencias de recursos
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Mascaro Eskin
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="12" data-categories="Jornadas 2026">
+<a href="trabajos_pdf/Migliore-mesa22.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Continuidades y rupturas en la situación de los trabajadores de la Administración Pública Nacional
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Jornadas 2026'); return false;">
+Jornadas 2026
+</div>
+</div>
+<div class="card-text listing-description">
+durante el periodo 2011-2025
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Migliore
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="13" data-categories="Jornadas 2026">
+<a href="trabajos_pdf/Pecora-mesa22.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+¿Por qué la derecha no invierte en sus propios gobiernos?
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Jornadas 2026'); return false;">
+Jornadas 2026
+</div>
+</div>
+<div class="card-text listing-description">
+Paradojas del poder económico en la Argentina contemporánea.
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Pecora
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="14" data-categories="Jornadas 2026">
+<a href="trabajos_pdf/Rossi-mesa22.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+El Plan Okita
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Jornadas 2026'); return false;">
+Jornadas 2026
+</div>
+</div>
+<div class="card-text listing-description">
+debates sobre una reforma económica para el desarrollo inconclusa
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Rossi
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="15" data-categories="Jornadas 2026">
+<a href="trabajos_pdf/Ruoppulo-mesa22.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Volver a Duhalde
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Jornadas 2026'); return false;">
+Jornadas 2026
+</div>
+</div>
+<div class="card-text listing-description">
+políticas de emergencia tras la salida de la crisis del 2001
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Ruoppulo
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="16" data-categories="Jornadas 2026">
+<a href="trabajos_pdf/Wilner-mesa22.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Construyendo circuitos de inversión
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Jornadas 2026'); return false;">
+Jornadas 2026
+</div>
+</div>
+<div class="card-text listing-description">
+Desarrolladores inmobiliarios y desigualdades socio-territoriales bajo la financierización subordinada en Argentina
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Wilner
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No hay resultados
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

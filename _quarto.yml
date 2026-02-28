@@ -4,21 +4,51 @@ project:
   output-dir: docs
   resources: 
     - CNAME
-  
+
+lang: es
+ 
 website:
   title: "Observatorio de Economía Política"
   site-url: https://www.oepsociologia.ar/
+ 
   navbar:
     left:
       - href: index.qmd
         text: Inicio
 #      - href: about/index.qmd
-#        text: Sobre nosotros
-#      - href: notas.qmd
-#        text: Notas
+#        text: Nosotros
+#      - href: investigacion/index.qmd
+#        text: Investigación
+#      - href: diplomatura/index.qmd
+#        text: Diplomatura  
+#      - href: informes/index.qmd
+#        text: Informes  
 #      - href: publicaciones/index.qmd
 #        text: Publicaciones
-#  search: true
+
+    right:
+      - icon: twitter-x
+        href: https://x.com/OEP_FSoc
+        target: _blank
+        aria-label: X
+      - icon: instagram
+        href: https://instagram.com/oepsociologia
+        target: _blank
+        aria-label: Instagram
+      - icon: youtube
+        href: https://youtube.com/@observatorioeconomiapolitica
+        target: _blank
+        aria-label: YouTube
+      - icon: envelope
+        href: mailto:observatorioeconomiapolitica@gmail.com
+        aria-label: Email
+    
+  page-footer:
+    center: |
+      © 2026 Observatorio de Economía Política  
+      [X](https://x.com/OEP_FSoc){.bi-x} ·
+      [Instagram](https://instagram.com/oepsociologia){.bi-instagram} ·
+      [YouTube](https://youtube.com/@observatorioeconomiapolitica){.bi-youtube}
 
 format:
   html:

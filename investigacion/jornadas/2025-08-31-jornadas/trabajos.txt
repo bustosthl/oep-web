@@ -1,0 +1,109 @@
+- title: Supervivencia en tiempos de crisis
+  author: Abraham
+  description: Análisis de los cambios en las prácticas económicas en
+momentos de crisis
+  path: trabajos_pdf/Abraham-mesa22.pdf
+  categories:
+  - Jornadas 2026
+- title: ¿Quién cuida a la que cuida?
+  author: Butin
+  description: Tareas de cuidado e invisibilización perpetua
+de las trabajadoras de la salud pública provincial de Neuquén, en el contexto de
+la motosierra.
+  path: trabajos_pdf/Butin-mesa22.pdf
+  categories:
+  - Jornadas 2026
+- title: Las nuevas formas del shock
+  author: Cannella
+  description: poder, economía y subjetividad en la era
+hipermoderna
+  path: trabajos_pdf/Cannella-mesa22.pdf
+  categories:
+  - Jornadas 2026
+- title: El Banco Central de Milei
+  author: Cargnel
+  description: entre la detonación y el saneamiento
+  path: trabajos_pdf/Cargnel-mesa22.pdf
+  categories:
+  - Jornadas 2026
+- title: Crónica de una privatización anunciada
+  author: Carrera Pereyra
+  description: ¿qué pasó con el presupuesto de Agua y
+Saneamientos Argentinos después de 2023?
+  path: trabajos_pdf/Carrera Pereyra-mesa22.pdf
+  categories:
+  - Jornadas 2026
+- title: Sociología de la inflación argentina
+  author: Castillo & Von Storch
+  description: Un abordaje a partir de estructuras y expectativas
+  path: trabajos_pdf/Castillo & Von Storch-mesa22.pdf
+  categories:
+  - Jornadas 2026
+- title: Impuestos, tiempo y moral
+  author: Cattaneo
+  description: prácticas cotidianas en contextos de crisis.
+  path: trabajos_pdf/Cattaneo-mesa22.pdf
+  categories:
+  - Jornadas 2026
+- title: “Querida, agrandé los precios”
+  author: Fiszlejder
+  description: Un análisis sobre las narrativas de Página 12 y Clarín acerca del origen y desarrollo del fenómeno inflacionario entre 2016 y 2023
+  path: trabajos_pdf/Fiszlejder-mesa22.pdf
+  categories:
+  - Jornadas 2026
+- title: Impacto del 5G en los Modelos de Producción y Empleo
+  author: Forlenza
+  description: en los países de Argentina
+y México en el periodo 2020-2024.
+  path: trabajos_pdf/Forlenza-mesa22.pdf
+  categories:
+  - Jornadas 2026
+- title: Trayectorias Sociales del Crédito
+  author: Gimenez
+  description: El impacto y la circulación de las líneas de financiamiento del Banco de la Gente en la Ciudad de Córdoba (2023-2025)
+  path: trabajos_pdf/Gimenez-mesa22.pdf
+  categories:
+  - Jornadas 2026
+- title: Un gran recurso ¿para qué estrategia?
+  author: Laffitte
+  description: bloque histórico y políticas públicas en la explotación del gas argentino (2016-2024)
+  path: trabajos_pdf/Laffitte-mesa22.pdf
+  categories:
+  - Jornadas 2026
+- title: “Magia, fiesta y fantasía”
+  author: Mascaro Eskin
+  description: Las ideas de los perjudicados de las grandes transferencias de recursos
+  path: trabajos_pdf/Mascaro Eskin-mesa22.pdf
+  categories:
+  - Jornadas 2026
+- title: Continuidades y rupturas en la situación de los trabajadores de la Administración Pública Nacional
+  author: Migliore
+  description: durante el periodo 2011-2025
+  path: trabajos_pdf/Migliore-mesa22.pdf
+  categories:
+  - Jornadas 2026
+- title: ¿Por qué la derecha no invierte en sus propios gobiernos?
+  author: Pecora
+  description: Paradojas del poder económico en la Argentina contemporánea.
+  path: trabajos_pdf/Pecora-mesa22.pdf
+  categories:
+  - Jornadas 2026
+- title: El Plan Okita
+  author: Rossi
+  description: debates sobre una reforma económica para el desarrollo inconclusa
+  path: trabajos_pdf/Rossi-mesa22.pdf
+  categories:
+  - Jornadas 2026
+- title: Volver a Duhalde
+  author: Ruoppulo
+  description: políticas de emergencia tras la salida de la crisis del 2001
+  path: trabajos_pdf/Ruoppulo-mesa22.pdf
+  categories:
+  - Jornadas 2026
+- title: Construyendo circuitos de inversión
+  author: Wilner
+  description: Desarrolladores inmobiliarios y desigualdades
+socio-territoriales bajo la financierización subordinada en Argentina
+  path: trabajos_pdf/Wilner-mesa22.pdf
+  categories:
+  - Jornadas 2026

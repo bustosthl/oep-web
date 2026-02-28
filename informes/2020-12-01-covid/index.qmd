@@ -1,0 +1,19 @@
+---
+title: "PANDEMIA Y ECONOMÍA - ENTRE LA CRISIS Y LOS CONSENSOS"
+subtitle: "Encuesta de opinión"
+author: "OEP"
+date: 2020-12-01
+---
+
+::: {.callout-note appearance="minimal"}
+Si no podés visualizar el documento, podés [descargarlo directamente aquí](INFORME-OEP-COVID.pdf).
+:::
+
+PDF:
+<iframe 
+  src="INFORME-OEP-COVID.pdf" 
+  width="100%" 
+  height="800px" 
+  style="border: 1px solid #eee;"
+  title="PANDEMIA Y ECONOMÍA - ENTRE LA CRISIS Y LOS CONSENSOS">
+</iframe>

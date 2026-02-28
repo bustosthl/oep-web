@@ -1,0 +1,22 @@
+---
+title: "Informes y Documentos de Trabajo"
+listing:
+  contents: "*/index.qmd"        # Rastrea todos los index.qmd en las subcarpetas
+  sort: "date desc"              # El más reciente arriba (muy importante para un Observatorio)
+  type: default                  # Formato de lista clásica (título, fecha, descripción)
+  categories: true               # Si agregás categories: [Coyuntura] en los informes, aparecerán filtros
+  sort-ui: [title, date]         # Permite al usuario ordenar por título o fecha
+  filter-ui: true                # Barra de búsqueda para filtrar informes por palabra clave
+  fields: [date, title, subtitle, author] # Los campos que definiste en tus informes
+  field-display-names:
+    title: "Informe"
+    subtitle: "Temática"
+    date: "Publicado"
+    author: "Autoría"
+---
+
+A continuación se presentan los resultados de las investigaciones, encuestas y análisis de coyuntura realizados por el **Observatorio de Economía Política**. 
+
+Podés utilizar la barra de búsqueda para encontrar informes específicos o filtrar por las categorías laterales.
+
+---

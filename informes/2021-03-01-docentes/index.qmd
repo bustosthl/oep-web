@@ -1,0 +1,18 @@
+---
+title: "ENCUESTA A DOCENTES UNIVERSITARIXS"
+subtitle: "En el período de ASPO en Argentina"
+author: "OEP"
+date: 2021-03-01
+---
+
+::: {.callout-note appearance="minimal"}
+Si no podés visualizar el documento, podés [descargarlo directamente aquí](INFORME-OEP-DOCENTES.pdf).
+:::
+
+<iframe 
+  src="INFORME-OEP-DOCENTES.pdf" 
+  width="100%" 
+  height="800px" 
+  style="border: 1px solid #eee;"
+  title="Informe Encuesta Docentes">
+</iframe>

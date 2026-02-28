@@ -1,0 +1,20 @@
+---
+title: "2025 Jornadas de Sociología (UBA)"
+subtitle: "Una mirada desde el Observatorio de Economía Política"
+author: "Equipo OEP"
+date: 2025-08-31
+listing:
+  contents: trabajos.yml # <--- Aquí le decimos que lea el archivo de datos
+  type: grid             # 'grid' queda muy bien para una galería (mosaicos)
+  sort: "author"
+  categories: true
+  grid-columns: 3        # Tres trabajos por fila
+  fields: [title, author, description, categories]
+  field-display-names:
+    title: "Trabajo"
+    author: "Autor/a"
+---
+
+Estos son los trabajos presentados en la mesa del Observatorio durante las Jornadas de Investigación de la Facultad de Ciencias Sociales del año 2025.
+
+---

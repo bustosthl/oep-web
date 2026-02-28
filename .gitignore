@@ -3,3 +3,7 @@
 *.log
 .DS_Store
 /.quarto/
+.Rproj.user
+/oep-web.Rproj
+/.Rproj.user
+/scripts

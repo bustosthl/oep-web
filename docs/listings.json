@@ -1,12 +1,21 @@
 [
   {
-    "listing": "/notas.html",
+    "listing": "/investigacion/index.html",
     "items": [
-      "/posts/actualidad/2025-03-01-crisis-inflacionaria/index.html",
-      "/posts/actualidad/2025-03-05-mercado-trabajo/index.html",
-      "/posts/curiosidades/2025-03-10-economia-cotidiana/index.html",
-      "/posts/investigacion/2025-02-20-desigualdad-ingresos/index.html",
-      "/posts/investigacion/2025-02-28-estado-politicas-publicas/index.html"
+      "/investigacion/jornadas/2025-08-31-jornadas/index.html"
     ]
+  },
+  {
+    "listing": "/informes/index.html",
+    "items": [
+      "/informes/2021-03-01-docentes/index.html",
+      "/informes/2020-12-01-covid/index.html",
+      "/informes/2020-12-01-trabajo/index.html",
+      "/informes/2020-08-01-paso/index.html"
+    ]
+  },
+  {
+    "listing": "/investigacion/jornadas/2025-08-31-jornadas/index.html",
+    "items": []
   }
 ]
