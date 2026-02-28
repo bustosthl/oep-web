@@ -1,9 +1,7 @@
 [
   {
-    "listing": "/investigacion/index.html",
-    "items": [
-      "/investigacion/jornadas/2025-08-31-jornadas/index.html"
-    ]
+    "listing": "/investigacion/jornadas/2025-08-31-jornadas/index.html",
+    "items": []
   },
   {
     "listing": "/informes/index.html",
@@ -15,7 +13,9 @@
     ]
   },
   {
-    "listing": "/investigacion/jornadas/2025-08-31-jornadas/index.html",
-    "items": []
+    "listing": "/investigacion/index.html",
+    "items": [
+      "/investigacion/jornadas/2025-08-31-jornadas/index.html"
+    ]
   }
 ]

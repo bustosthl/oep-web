@@ -23,8 +23,6 @@ website:
 #        text: Diplomatura  
 #      - href: informes/index.qmd
 #        text: Informes  
-#      - href: publicaciones/index.qmd
-#        text: Publicaciones
 
     right:
       - icon: twitter-x
