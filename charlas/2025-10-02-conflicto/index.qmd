@@ -4,7 +4,7 @@ author: "OEP"
 date: 2025-10-02
 ---
 
-Conversatorio abierto en el marco de la Diplomatura "Cuestiones Socioeconómicas Fundamentales de la Argentina Actual".
+Conversatorio abierto en el marco de la Diplomatura "Cuestiones Socioeconómicas Fundamentales de la Argentina Actual". Conversamos con Telma Luzzani. 
 
 ::: {.ratio .ratio-16x9}
 <iframe src="https://www.youtube.com/embed/1I8xjVrwGlw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

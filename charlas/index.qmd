@@ -1,22 +1,22 @@
 ---
-title: "Charlas y conversatorios"
+title: "Charlas y Conversatorios"
 listing:
-  contents: "*/index.qmd"        # Rastrea todos los index.qmd en las subcarpetas
-  sort: "date desc"              # El más reciente arriba (muy importante para un Observatorio)
-  type: default                  # Formato de lista clásica (título, fecha, descripción)
-  categories: true               # Si agregás categories: [Coyuntura] en los informes, aparecerán filtros
-  sort-ui: [title, date]         # Permite al usuario ordenar por título o fecha
-  filter-ui: true                # Barra de búsqueda para filtrar informes por palabra clave
-  fields: [date, title, subtitle, author] # Los campos que definiste en tus informes
+  contents: "*/index.qmd"
+  sort: "date desc"
+  type: grid                # El formato de cuadraditos
+  grid-columns: 3           # 3 videos por fila
+  image-height: "200px"     # Altura uniforme para las miniaturas
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  fields: [image, date, title, subtitle] # 'image' es clave aquí
   field-display-names:
-    title: "Informe"
+    title: "Encuentro"
     subtitle: "Temática"
-    date: "Publicado"
-    author: "Autoría"
 ---
 
 A continuación se presentan las charlas y conversatorios organizados por el **Observatorio de Economía Política**. 
 
-Podés utilizar la barra de búsqueda para encontrar informes específicos o filtrar por las categorías laterales.
+Utilizá los filtros laterales para navegar por las diferentes temáticas.
 
 ---
