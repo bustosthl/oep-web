@@ -1,0 +1,18 @@
+---
+title: "SPUTNIK V.I.D.A."
+subtitle: "Una nueva oportunidad para pensar el desarrollo"
+author: "OEP"
+date: 2021-05-01
+---
+
+::: {.callout-note appearance="minimal"}
+Si no podés visualizar el documento, podés [descargarlo directamente aquí](INFORME-OEP-SPUTNIK.pdf).
+:::
+
+<iframe 
+  src="INFORME-OEP-SPUTNIK.pdf" 
+  width="100%" 
+  height="800px" 
+  style="border: 1px solid #eee;"
+  title="SPUTNIK V.I.D.A.">
+</iframe>

@@ -1,0 +1,18 @@
+---
+title: "ENERGÍA SUBSIDIADA vs TARIFAS LIBERADAS"
+subtitle: "La disputa por los proyectos sociales, consumos, y derechos en la Argentina entre 2002 y 2019."
+author: "OEP"
+date: 2019-10-01
+---
+
+::: {.callout-note appearance="minimal"}
+Si no podés visualizar el documento, podés [descargarlo directamente aquí](INFORME-OEP-ENERGIA.pdf).
+:::
+
+<iframe 
+  src="INFORME-OEP-ENERGIA.pdf" 
+  width="100%" 
+  height="800px" 
+  style="border: 1px solid #eee;"
+  title="ENERGÍA SUBSIDIADA vs TARIFAS LIBERADAS">
+</iframe>
