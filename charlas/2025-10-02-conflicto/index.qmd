@@ -1,0 +1,16 @@
+---
+title: "Argentina libertaria en un mundo en conflicto"
+author: "OEP"
+date: 2025-10-02
+---
+
+Conversatorio abierto en el marco de la Diplomatura "Cuestiones Socioeconómicas Fundamentales de la Argentina Actual".
+
+::: {.ratio .ratio-16x9}
+<iframe src="https://www.youtube.com/embed/1I8xjVrwGlw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+:::
+
+::: {.callout-tip appearance="minimal" icon=false}
+[Ver en YouTube](https://www.youtube.com/watch?v=1I8xjVrwGlw){.btn .btn-outline-danger .btn-sm}
+[Ver canal del OEP](https://youtube.com/@observatorioeconomiapolitica){.btn .btn-outline-secondary .btn-sm}
+:::

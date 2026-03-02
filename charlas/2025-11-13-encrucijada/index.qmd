@@ -1,0 +1,17 @@
+---
+title: "La Argentina en la encrucijada libertaria"
+subtitle: "repaso del gobierno de Milei, trazando una perspectiva hacia el futuro."
+author: "OEP"
+date: 2025-11-13
+---
+
+Conversatorio abierto en el marco de la Diplomatura "Cuestiones Socioeconómicas Fundamentales de la Argentina Actual". Se trata el tema "La Argentina en la encrucijada libertaria. Repaso del gobierno de Milei, trazando una perspectiva hacia el futuro."
+
+::: {.ratio .ratio-16x9}
+<iframe src="https://www.youtube.com/embed/_WKD39y7Tbs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+:::
+
+::: {.callout-tip appearance="minimal" icon=false}
+[Ver en YouTube](https://www.youtube.com/watch?v=_WKD39y7Tbs){.btn .btn-outline-danger .btn-sm}
+[Ver canal del OEP](https://youtube.com/@observatorioeconomiapolitica){.btn .btn-outline-secondary .btn-sm}
+:::

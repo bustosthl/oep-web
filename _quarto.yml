@@ -22,7 +22,10 @@ website:
 #      - href: diplomatura/index.qmd
 #        text: Diplomatura  
 #      - href: informes/index.qmd
-#        text: Informes  
+#        text: Informes    
+#      - href: charlas/index.qmd
+#        text: Charlas y conversatorios  
+
 
     right:
       - icon: twitter-x
