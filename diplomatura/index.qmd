@@ -1,5 +1,5 @@
 ---
-title: "Diplomatura en Cuestiones Socioeconómicas Fundamentales"
+title: "Diplomatura en Cuestiones socioeconómicas fundamentales de la Argentina actual"
 subtitle: "Políticas Públicas, Representaciones Sociales y Tendencias Globales"
 ---
 
