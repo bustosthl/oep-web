@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Informes y Documentos de Trabajo – Observatorio de Economía Política</title>
+<title>OEP en medios – Observatorio de Economía Política</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -78,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-subtitle','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-image','listing-date','listing-title','listing-author','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -131,7 +131,7 @@ window.Quarto = {
 <link rel="stylesheet" href="../assets/styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -165,7 +165,7 @@ window.Quarto = {
 <span class="menu-text">Diplomatura</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../informes/index.html" aria-current="page"> 
+    <a class="nav-link" href="../informes/index.html"> 
 <span class="menu-text">Informes</span></a>
   </li>  
   <li class="nav-item">
@@ -173,7 +173,7 @@ window.Quarto = {
 <span class="menu-text">Charlas y conversatorios</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../medios/index.html"> 
+    <a class="nav-link active" href="../medios/index.html" aria-current="page"> 
 <span class="menu-text">OEP en medios</span></a>
   </li>  
 </ul>
@@ -209,15 +209,13 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categorías</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Todas <span class="quarto-category-count">(6)</span></div></div></div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Informes y Documentos de Trabajo</h1>
+<h1 class="title">OEP en medios</h1>
 </div>
 
 
@@ -234,156 +232,79 @@ window.Quarto = {
 </header>
 
 
-<p>A continuación se presentan los resultados de las investigaciones, encuestas y análisis de coyuntura realizados por el <strong>Observatorio de Economía Política</strong>.</p>
-<p>Podés utilizar la barra de búsqueda para encontrar informes específicos o filtrar por las categorías laterales.</p>
+<p>Recopilación de intervenciones, entrevistas y artículos de opinión de los integrantes del OEP en distintos medios de comunicación.</p>
 <hr>
 
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Ordenar por" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Ordenar por</option>
-       <option value="index" data-direction="asc">Por defecto</option>
-         <option value="listing-title" data-direction="asc">
-          Informe
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Publicado - Menos reciente
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Publicado - Más reciente
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filtro">
-    </div>
-</div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1619838000000" data-listing-file-modified-sort="1772480472499" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="30">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../informes/2021-05-01-sputnik/index.html" class="no-external">SPUTNIK V.I.D.A.</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../informes/2021-05-01-sputnik/index.html" class="no-external">Una nueva oportunidad para pensar el desarrollo</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../informes/2021-05-01-sputnik/index.html" class="no-external">
-<div class="listing-date">
-1 may 2021
-</div>
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1772247600000">
+<a href="https://www.eldestapeweb.com/economia/hidrovia/los-tres-oferentes-con-cartas-marcadas-para-quedarse-con-la-via-navegable-troncal-2026228212059" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://cdn.eldestapeweb.com/eldestape/012024/1704807191670.webp?cw=800&amp;ch=450&amp;extw=jpg" class="thumbnail-image card-img" style="height: 180px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Los tres oferentes con cartas marcadas para quedarse con la Vía Navegable Troncal
+</h5>
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
-OEP
+Sebastián Premici
+</div>
+<div class="listing-date">
+28 feb 2026
+</div>
+</div>
+</div>
 </div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1614567600000" data-listing-file-modified-sort="1772319868002" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="31">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../informes/2021-03-01-docentes/index.html" class="no-external">ENCUESTA A DOCENTES UNIVERSITARIXS</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../informes/2021-03-01-docentes/index.html" class="no-external">En el período de ASPO en Argentina</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../informes/2021-03-01-docentes/index.html" class="no-external">
-<div class="listing-date">
-1 mar 2021
-</div>
+<div class="g-col-1" data-index="1" data-listing-date-sort="1772161200000">
+<a href="https://www.eldestapeweb.com/economia/hidrovia/en-la-previa-de-una-nueva-concesion-de-la-hidrovia-suman-una-denuncia-penal-2026227057" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://cdn.eldestapeweb.com/eldestape/042021/1619696094174/hidrovia_argentina.webp?cw=800&amp;ch=450&amp;extw=jpg" class="thumbnail-image card-img" style="height: 180px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+En la previa de una nueva concesión de la Hidrovía suman una denuncia penal y piden informes
+</h5>
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
-OEP
+Sebastián Premici
+</div>
+<div class="listing-date">
+27 feb 2026
+</div>
+</div>
+</div>
 </div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1606791600000" data-listing-file-modified-sort="1772319893622" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="38">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../informes/2020-12-01-covid/index.html" class="no-external">PANDEMIA Y ECONOMÍA - ENTRE LA CRISIS Y LOS CONSENSOS</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../informes/2020-12-01-covid/index.html" class="no-external">Encuesta de opinión</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../informes/2020-12-01-covid/index.html" class="no-external">
-<div class="listing-date">
-1 dic 2020
-</div>
+<div class="g-col-1" data-index="2" data-listing-date-sort="1771988400000">
+<a href="https://www.eldestapeweb.com/economia/entrevistas-en-el-destape/pablo-villar-contra-la-ley-de-glaciares-no-es-una-buena-estrategia-2026225194722" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://cdn.eldestapeweb.com/eldestape/022026/1772054674703.webp?cw=800&amp;ch=450&amp;extw=jpg" class="thumbnail-image card-img" style="height: 180px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Pablo Villagra contra la Ley de Glaciares “No es una buena estrategia”
+</h5>
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
-OEP
+Sebastián Premici
+</div>
+<div class="listing-date">
+25 feb 2026
+</div>
+</div>
+</div>
 </div>
 </a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1606791600000" data-listing-file-modified-sort="1772319864020" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="34">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../informes/2020-12-01-trabajo/index.html" class="no-external">REACCIONES ESTATALES FRENTE A LA PANDEMIA</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../informes/2020-12-01-trabajo/index.html" class="no-external">Un abordaje en clave comparativa</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../informes/2020-12-01-trabajo/index.html" class="no-external">
-<div class="listing-date">
-1 dic 2020
-</div>
-<div class="listing-author">
-OEP
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1596250800000" data-listing-file-modified-sort="1772319915230" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="39">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../informes/2020-08-01-paso/index.html" class="no-external">Encuesta exclusiva a 1 año de las elecciones PASO en 2019</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../informes/2020-08-01-paso/index.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../informes/2020-08-01-paso/index.html" class="no-external">
-<div class="listing-date">
-1 ago 2020
-</div>
-<div class="listing-author">
-OEP
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1569898800000" data-listing-file-modified-sort="1772480413880" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="33">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../informes/2019-10-01-energia/index.html" class="no-external">ENERGÍA SUBSIDIADA vs TARIFAS LIBERADAS</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../informes/2019-10-01-energia/index.html" class="no-external">La disputa por los proyectos sociales, consumos, y derechos en la Argentina entre 2002 y 2019.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../informes/2019-10-01-energia/index.html" class="no-external">
-<div class="listing-date">
-1 oct 2019
-</div>
-<div class="listing-author">
-OEP
-</div>
-</a>
-</div>
 </div>
 </div>
 <div class="listing-no-matching d-none">

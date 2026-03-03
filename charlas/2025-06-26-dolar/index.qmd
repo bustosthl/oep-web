@@ -1,8 +1,9 @@
 ---
-title: "Dólar e inflación en la Argentina libertaria"
-subtitle: "¿Problema resuelto?"
+title: "Dólar e inflación en la Argentina libertaria. ¿Problema resuelto?"
+subtitle: "conversación con Julián Zícari"
 author: "OEP"
 date: 2025-06-26
+image: "https://img.youtube.com/vi/ADWc1Tp7Hfk/maxresdefault.jpg"
 ---
 
 Conversatorio abierto en el marco de la Diplomatura "Cuestiones Socioeconómicas Fundamentales de la Argentina Actual". Conversamos con Julián Zícari. 

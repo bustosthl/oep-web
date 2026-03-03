@@ -1,7 +1,9 @@
 ---
 title: "Argentina libertaria en un mundo en conflicto"
+subtitle: "conversación con Telma Luzzi"
 author: "OEP"
 date: 2025-10-02
+image: "https://img.youtube.com/vi/1I8xjVrwGlw/maxresdefault.jpg"
 ---
 
 Conversatorio abierto en el marco de la Diplomatura "Cuestiones Socioeconómicas Fundamentales de la Argentina Actual". Conversamos con Telma Luzzani. 

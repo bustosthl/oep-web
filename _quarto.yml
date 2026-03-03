@@ -15,16 +15,18 @@ website:
     left:
       - href: index.qmd
         text: Inicio
-#      - href: about/index.qmd
-#        text: Nosotros
-#      - href: investigacion/index.qmd
-#        text: Investigación
-#      - href: diplomatura/index.qmd
-#        text: Diplomatura  
-#      - href: informes/index.qmd
-#        text: Informes    
-#      - href: charlas/index.qmd
-#        text: Charlas y conversatorios  
+      - href: about/index.qmd
+        text: Nosotros
+      - href: investigacion/index.qmd
+        text: Investigación
+      - href: diplomatura/index.qmd
+        text: Diplomatura  
+      - href: informes/index.qmd
+        text: Informes    
+      - href: charlas/index.qmd
+        text: Charlas y conversatorios
+      - href: medios/index.qmd
+        text: OEP en medios
 
 
     right:

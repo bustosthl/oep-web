@@ -1,0 +1,18 @@
+---
+title: "OEP en medios"
+listing:
+  contents: medios.yml
+  type: grid
+  grid-columns: 3
+  sort: "date desc"
+  image-height: "180px"
+  fields: [image, date, title, author, description]
+  field-display-names:
+    title: "Nota / Entrevista"
+    author: "Integrante"
+    date: "Fecha"
+---
+
+Recopilación de intervenciones, entrevistas y artículos de opinión de los integrantes del OEP en distintos medios de comunicación.
+
+---
