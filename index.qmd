@@ -8,7 +8,7 @@ listing:
     type: grid
     max-items: 3
     sort: "date desc"
-    fields: [date, title, subtitle] # Sin imagen para informes
+    fields: [date, title, subtitle]
     field-display-names:
       title: "Informe"
   - id: latest-talks
@@ -16,10 +16,10 @@ listing:
     type: grid
     max-items: 3
     sort: "date desc"
-    fields: [image, title, date] # Con imagen para charlas (YouTube)
+    fields: [image, title, date]
 ---
 
-::: {.hero-banner style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 80px 0; text-align: center; border-bottom: 1px solid #dee2e6; margin-bottom: 40px;"}
+::: {.hero-banner style="background-color: #f5f5f5; padding: 80px 0; text-align: center; border-bottom: 1px solid #e0e0e0; margin-bottom: 40px;"}
 ::: {.content-block}
 <img src="assets/images/oep-logo-transparente.png" style="max-width:200px; margin-bottom:20px;">
 
