@@ -10,7 +10,8 @@ lang: es
 website:
   title: "Observatorio de Economía Política"
   site-url: https://www.oepsociologia.ar/
- 
+  favicon: "assets/images/favicon.png"
+
   navbar:
     left:
 #      - href: index.qmd
