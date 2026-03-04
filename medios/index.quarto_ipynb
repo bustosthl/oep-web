@@ -1,0 +1,66 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"OEP en medios\"\n",
+        "listing:\n",
+        "  contents: medios.yml\n",
+        "  type: grid\n",
+        "  grid-columns: 3\n",
+        "  sort: \"date desc\"\n",
+        "  image-height: \"180px\"\n",
+        "  fields: [image, date, title, author, description]\n",
+        "  categories: true\n",
+        "  sort-ui: true\n",
+        "  filter-ui: true\n",
+        "  field-display-names:\n",
+        "    title: \"Nota / Entrevista\"\n",
+        "    author: \"Integrante\"\n",
+        "    date: \"Fecha\"\n",
+        "---\n",
+        "\n",
+        "```{js}\n",
+        "//| echo: false\n",
+        "/* Este script cambia los textos una vez que la página carga */\n",
+        "document.addEventListener(\"DOMContentLoaded\", function() {\n",
+        "  \n",
+        "  // 1. Cambiar el título de \"Categorías\" a \"Medios y autores\"\n",
+        "  const catHeading = document.querySelector('.listing-categories-heading');\n",
+        "  if (catHeading) {\n",
+        "    catHeading.textContent = \"Medios y autores\";\n",
+        "  }\n",
+        "\n",
+        "  // 2. Cambiar el placeholder del filtro de \"Filtro\" a \"Título\"\n",
+        "  const filterInput = document.querySelector('.listing-filter input');\n",
+        "  if (filterInput) {\n",
+        "    filterInput.placeholder = \"Título...\";\n",
+        "  }\n",
+        "});\n",
+        "```\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "Recopilación de intervenciones, entrevistas y artículos de opinión de los integrantes del OEP en distintos medios de comunicación.\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "---"
+      ],
+      "id": "7defbc91"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "display_name": "Python 3",
+      "language": "python",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

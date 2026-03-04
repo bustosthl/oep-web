@@ -13,8 +13,8 @@ website:
  
   navbar:
     left:
-      - href: index.qmd
-        text: Inicio
+#      - href: index.qmd
+#        text: Inicio
       - href: about/index.qmd
         text: Nosotros
       - href: investigacion/index.qmd

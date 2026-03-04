@@ -7,6 +7,9 @@ listing:
   sort: "date desc"
   image-height: "180px"
   fields: [image, date, title, author, description]
+  categories: true
+  sort-ui: true
+  filter-ui: true
   field-display-names:
     title: "Nota / Entrevista"
     author: "Integrante"
