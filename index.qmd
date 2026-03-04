@@ -62,7 +62,7 @@ Transferencia de conocimiento a través de informes propios, conversatorios y pr
 
 ::: {.panel-tabset}
 
-### 📄 Informes recientes
+### 📄 Informes
 ::: {#latest-reports}
 :::
 
