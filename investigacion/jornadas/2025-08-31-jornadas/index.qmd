@@ -15,6 +15,6 @@ listing:
     author: "Autor/a"
 ---
 
-Estos son los trabajos presentados en la mesa del Observatorio durante las Jornadas de Investigación de la Facultad de Ciencias Sociales del año 2025.
+Estos son los trabajos presentados en la mesa coordinada por el Observatorio, junto con las materias Economía Política Argentina y Políticas Económicas en el Período Democrático, ambas de la carrera de Sociología, durante las Jornadas de Investigación de la Facultad de Ciencias Sociales del año 2025.
 
 ---
