@@ -5,7 +5,7 @@ listing:
   contents: "*/index.qmd"        
   sort: "date desc"
   filter-ui: true
-  categories: true
+  categories: false
 ---
 
 

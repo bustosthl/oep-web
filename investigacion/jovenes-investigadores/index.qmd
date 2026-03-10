@@ -1,0 +1,19 @@
+---
+title: "Trabajos de investigación carrera de sociología"
+subtitle: "Una mirada desde el Observatorio de Economía Política"
+date: 2026-03-10
+listing:
+  contents: trabajos.yml 
+  type: grid             
+  sort: "author"
+  categories: false
+  grid-columns: 3       
+  fields: [title, author, description]
+  field-display-names:
+    title: "Trabajo"
+    author: "Autor/a"
+---
+
+Presentamos informes y trabajos de investigación en el marco de la articulación entre el OEP y la carrera de Sociología de FSOC UBA, cuyo objetivo es propiciar el impulso a jóvenes investigadores/as.
+
+---

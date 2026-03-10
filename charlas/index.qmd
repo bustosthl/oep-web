@@ -1,22 +1,22 @@
 ---
-title: "Charlas y Conversatorios"
+title: "Charlas, conversatorios y entrevistas"
+subtitle: "Registro audiovisual del Observatorio de Economía Política"
+author: "Equipo OEP"
 listing:
-  contents: "*/index.qmd"
+  contents: videos.yml
+  type: grid
   sort: "date desc"
-  type: grid                # El formato de cuadraditos
-  grid-columns: 3           # 3 videos por fila
-  image-height: "200px"     # Altura uniforme para las miniaturas
-  categories: true
-  sort-ui: true
+  sort-ui: [date, title]
   filter-ui: true
-  fields: [image, date, title, subtitle] # 'image' es clave aquí
+  categories: false
+  grid-columns: 3
+  fields: [image, title, author, description]
   field-display-names:
-    title: "Encuentro"
-    subtitle: "Temática"
+    title: "Título"
+    author: "Expositor/a"
 ---
 
-A continuación se presentan las charlas y conversatorios organizados por el **Observatorio de Economía Política**. 
-
+A continuación se presentan las charlas y conversatorios organizados por el **Observatorio de Economía Política**.
 Utilizá los filtros laterales para navegar por las diferentes temáticas.
 
 ---

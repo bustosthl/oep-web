@@ -4,32 +4,8 @@
     "items": []
   },
   {
-    "listing": "/investigacion/index.html",
-    "items": [
-      "/investigacion/jornadas/2025-08-31-jornadas/index.html"
-    ]
-  },
-  {
-    "listing": "/charlas/index.html",
-    "items": [
-      "/charlas/2025-11-13-encrucijada/index.html",
-      "/charlas/2025-10-02-conflicto/index.html",
-      "/charlas/2025-06-26-dolar/index.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/informes/2021-05-01-sputnik/index.html",
-      "/informes/2021-03-01-docentes/index.html",
-      "/informes/2020-12-01-covid/index.html",
-      "/informes/2020-12-01-trabajo/index.html",
-      "/informes/2020-08-01-paso/index.html",
-      "/informes/2019-10-01-energia/index.html",
-      "/charlas/2025-11-13-encrucijada/index.html",
-      "/charlas/2025-10-02-conflicto/index.html",
-      "/charlas/2025-06-26-dolar/index.html"
-    ]
+    "listing": "/investigacion/jornadas/2025-08-31-jornadas/index.html",
+    "items": []
   },
   {
     "listing": "/informes/index.html",
@@ -43,7 +19,29 @@
     ]
   },
   {
-    "listing": "/investigacion/jornadas/2025-08-31-jornadas/index.html",
+    "listing": "/index.html",
+    "items": [
+      "/informes/2021-05-01-sputnik/index.html",
+      "/informes/2021-03-01-docentes/index.html",
+      "/informes/2020-12-01-covid/index.html",
+      "/informes/2020-12-01-trabajo/index.html",
+      "/informes/2020-08-01-paso/index.html",
+      "/informes/2019-10-01-energia/index.html"
+    ]
+  },
+  {
+    "listing": "/charlas/index.html",
+    "items": []
+  },
+  {
+    "listing": "/investigacion/index.html",
+    "items": [
+      "/investigacion/jovenes-investigadores/index.html",
+      "/investigacion/jornadas/2025-08-31-jornadas/index.html"
+    ]
+  },
+  {
+    "listing": "/investigacion/jovenes-investigadores/index.html",
     "items": []
   }
 ]

@@ -12,7 +12,7 @@ listing:
     field-display-names:
       title: "Informe"
   - id: latest-talks
-    contents: "charlas/*/index.qmd"
+    contents: "charlas/videos.yml"
     type: grid
     max-items: 3
     sort: "date desc"

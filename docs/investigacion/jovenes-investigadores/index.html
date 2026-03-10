@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="OEP">
 
-<title>Dólar e inflación en la Argentina libertaria. ¿Problema resuelto? – Observatorio de Economía Política</title>
+<title>Trabajos de investigación carrera de sociología – Observatorio de Economía Política</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
 <link href="../../assets/images/favicon.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -68,7 +69,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Buscar"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../assets/styles.css">
 </head>
@@ -153,25 +212,19 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Dólar e inflación en la Argentina libertaria. ¿Problema resuelto?</h1>
-<p class="subtitle lead">conversación con Julián Zícari</p>
+<h1 class="title">Trabajos de investigación carrera de sociología</h1>
+<p class="subtitle lead">Una mirada desde el Observatorio de Economía Política</p>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Autor/a</div>
-    <div class="quarto-title-meta-contents">
-             <p>OEP </p>
-          </div>
-  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Fecha de publicación</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">26 de junio de 2025</p>
+      <p class="date">10 de marzo de 2026</p>
     </div>
   </div>
   
@@ -183,25 +236,179 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Conversatorio abierto en el marco de la Diplomatura “Cuestiones Socioeconómicas Fundamentales de la Argentina Actual”. Conversamos con Julián Zícari.</p>
-<div class="ratio ratio-16x9">
-<iframe src="https://www.youtube.com/embed/ADWc1Tp7Hfk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
-</iframe>
-</div>
-<div class="callout callout-style-simple callout-tip no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
-<p><a href="https://www.youtube.com/watch?v=1I8xjVrwGlw" class="btn btn-outline-danger btn-sm">Ver en YouTube</a> <a href="https://youtube.com/@observatorioeconomiapolitica" class="btn btn-outline-secondary btn-sm">Ver canal del OEP</a></p>
-</div>
-</div>
-</div>
+<p>Presentamos informes y trabajos de investigación en el marco de la articulación entre el OEP y la carrera de Sociología de FSOC UBA, cuyo objetivo es propiciar el impulso a jóvenes investigadores/as.</p>
+<hr>
 
 
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0">
+<a href="trabajos_pdf/02-delfina-ferrari-microcreditos.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Ley nacional de microcréditos durante la alianza cambiemos
+</h5>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Delfina Ferrari
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1">
+<a href="trabajos_pdf/03-diego-castillo-trifasica.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+La trifasica. Subsidios y desarrollo en el ciclo kirchnerista
+</h5>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Diego Castillo
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2">
+<a href="trabajos_pdf/04-bonifato-caceres-espejos.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Tipo de cambio y espejos de colores
+</h5>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Gisela Bonifato y Sergio Caceres
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3">
+<a href="trabajos_pdf/06-juan-gallo-financiacion.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Políticas de financiación estatales y Créditos del Bicentenario
+</h5>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Juan Gallo
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4">
+<a href="trabajos_pdf/01-juan-nardoni-cupulas.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Comportamiento político y económico de las cúpulas empresariales argentina
+</h5>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Juan Nardoni
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5">
+<a href="trabajos_pdf/07-leandro-ortelli-bid.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+El BID y las Pymes argentinas
+</h5>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Leandro Ortelli
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6">
+<a href="trabajos_pdf/08-leandro-urricelqui-inflacion.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Mapa de actores socioeconómicos y sus discursos sobre la inflación en Argentina
+</h5>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Leandro Urricelqui
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="7">
+<a href="trabajos_pdf/05-sol-scheffer-farmaceutica.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Industria Farmaceutica Argentina
+</h5>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+María Sol González Scheffer
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="8">
+<a href="trabajos_pdf/09-micaela-traficante-cripto.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Mundo cripto. Un aborjade sociológico a la posibilidad de emergencia del fenómeno de las monedas digitales.
+</h5>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Micaela Traficante
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="9">
+<a href="trabajos_pdf/10-michelle-fiszlejder-precios.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Querida agrande los precios
+</h5>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Michelle Fiszlejder
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No hay resultados
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
