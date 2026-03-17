@@ -11,6 +11,7 @@ website:
   title: "Observatorio de Economía Política"
   site-url: https://www.oepsociologia.ar/
   favicon: "assets/images/favicon.png"
+  google-analytics: "G-NHSK4GBWZ3"
 
   navbar:
     left:
