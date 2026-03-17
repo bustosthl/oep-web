@@ -12,6 +12,11 @@ website:
   site-url: https://www.oepsociologia.ar/
   favicon: "assets/images/favicon.png"
   google-analytics: "G-NHSK4GBWZ3"
+  open-graph: 
+    image: "assets/images/logo-navbar.jpg"
+    description: "Facultad de Ciencias Sociales (UBA)"
+  twitter-card: 
+    image: "assets/images/logo-navbar.jpg"
 
   navbar:
     left:
