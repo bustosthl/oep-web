@@ -1,0 +1,18 @@
+---
+title: "Una fractura que no sana"
+subtitle: "El plan económico de la dictadura"
+author: "OEP"
+date: 2026-03-24
+---
+
+::: {.callout-note appearance="minimal"}
+Si no podés visualizar el documento, podés [descargarlo directamente aquí](INFORME-OEP-FRACTURA.pdf).
+:::
+
+<iframe 
+  src="INFORME-OEP-FRACTURA.pdf" 
+  width="100%" 
+  height="800px" 
+  style="border: 1px solid #eee;"
+  title="Una fractura que no sana">
+</iframe>

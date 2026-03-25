@@ -10,17 +10,7 @@
   {
     "listing": "/informes/index.html",
     "items": [
-      "/informes/2021-05-01-sputnik/index.html",
-      "/informes/2021-03-01-docentes/index.html",
-      "/informes/2020-12-01-covid/index.html",
-      "/informes/2020-12-01-trabajo/index.html",
-      "/informes/2020-08-01-paso/index.html",
-      "/informes/2019-10-01-energia/index.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
+      "/informes/2026-03-24-fractura/index.html",
       "/informes/2021-05-01-sputnik/index.html",
       "/informes/2021-03-01-docentes/index.html",
       "/informes/2020-12-01-covid/index.html",
@@ -32,6 +22,18 @@
   {
     "listing": "/charlas/index.html",
     "items": []
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/informes/2026-03-24-fractura/index.html",
+      "/informes/2021-05-01-sputnik/index.html",
+      "/informes/2021-03-01-docentes/index.html",
+      "/informes/2020-12-01-covid/index.html",
+      "/informes/2020-12-01-trabajo/index.html",
+      "/informes/2020-08-01-paso/index.html",
+      "/informes/2019-10-01-energia/index.html"
+    ]
   },
   {
     "listing": "/investigacion/index.html",
