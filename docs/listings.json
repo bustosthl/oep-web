@@ -21,7 +21,11 @@
     ]
   },
   {
-    "listing": "/index_aburr.html",
+    "listing": "/charlas/index.html",
+    "items": []
+  },
+  {
+    "listing": "/index.html",
     "items": [
       "/informes/2026-05-01-trabajo/index.html",
       "/informes/2026-03-24-fractura/index.html",
@@ -34,11 +38,7 @@
     ]
   },
   {
-    "listing": "/charlas/index.html",
-    "items": []
-  },
-  {
-    "listing": "/index.html",
+    "listing": "/index_nv.html",
     "items": [
       "/informes/2026-05-01-trabajo/index.html",
       "/informes/2026-03-24-fractura/index.html",

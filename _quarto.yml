@@ -63,4 +63,4 @@ website:
 format:
   html:
     theme: cosmo
-    css: assets/styles.scss
+    css: assets/styles.css

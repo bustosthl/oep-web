@@ -1,7 +1,9 @@
 ---
 title: ""
-page-layout: full
-anchor-sections: false
+page-layout: custom
+section-divs: false
+css: assets/styles.scss
+toc: false
 listing:
   - id: latest-reports
     contents: "informes/*/index.qmd"
@@ -19,46 +21,78 @@ listing:
     fields: [image, title, date]
 ---
 
-::: {.hero-banner style="background-color: #f5f5f5; padding: 80px 0; text-align: center; border-bottom: 1px solid #e0e0e0; margin-bottom: 40px;"}
-::: {.content-block}
-<img src="assets/images/oep-logo-transparente.png" style="max-width:200px; margin-bottom:20px;">
+::: {.hero-splash}
 
 # Observatorio de Economía Política
 ### Facultad de Ciencias Sociales (UBA)
 
-[Investigación y análisis crítico de la realidad socioeconómica argentina.]{.lead .text-muted}
+[Investigación y análisis crítico de la realidad socioeconómica argentina.]{.lead}
 
-::: {.d-flex .justify-content-center .gap-3 .mt-4}
-<a href="informes/index.qmd" class="btn btn-primary btn-lg">Ver Informes</a>
-<a href="about/index.qmd" class="btn btn-outline-dark btn-lg">Sobre el OEP</a>
-:::
-:::
+::: {.hero-actions}
+[Ver Informes](informes/index.qmd){.btn-brand}  
+[Sobre el OEP](about/index.qmd){.btn-outline-light}
 :::
 
-::: {.content-block}
+:::
 
-## Ejes de Trabajo
+::: {.section .section-soft}
 
-::: {layout-ncol=3}
+::: {.section-wrap}
 
-### [Investigación]{style="color: #2c3e50;"}
+::: {.section-heading #ejes}
+
+::: {.section-kicker}
+EJES DE TRABAJO
+:::
+
+## Líneas de acción del Observatorio
+
+:::
+
+::: {.values-grid}
+
+::: {.value-card .oep-blue}
+### Investigación
+
 Desarrollamos líneas de estudio sobre estructura productiva, mercado de trabajo y políticas públicas nacionales.
+
 [Ir a Investigación →](investigacion/index.qmd)
+:::
 
-### [Formación]{style="color: #2c3e50;"}
+::: {.value-card .oep-orange}
+### Formación
+
 Espacios de debate y capacitación académica, incluyendo nuestra Diplomatura en Economía Política.
-[Ver Diplomatura →](diplomatura/index.qmd)
 
-### [Divulgación]{style="color: #2c3e50;"}
+[Ver Diplomatura →](diplomatura/index.qmd)
+:::
+
+::: {.value-card .oep-light}
+### Divulgación
+
 Transferencia de conocimiento a través de informes propios, conversatorios y presencia constante en medios.
+
 [OEP en Medios →](medios/index.qmd)
 :::
 
-<br>
-<hr>
-<br>
+:::
 
-## Novedades del Observatorio
+:::
+<div><br></br></div>
+:::
+
+::: {.section .section-cool}
+
+::: {.section-wrap}
+
+::: {.section-heading #novedades}
+::: {.section-kicker}
+NOVEDADES
+:::
+
+## Últimas publicaciones y actividades
+
+:::
 
 ::: {.panel-tabset}
 
@@ -67,7 +101,7 @@ Transferencia de conocimiento a través de informes propios, conversatorios y pr
 :::
 
 <div style="text-align: right; margin-top: 20px;">
-[Ver todos los informes →](informes/index.qmd){.btn .btn-outline-primary .btn-sm}
+[Ver todos los informes →](informes/index.qmd){.btn-ghost style="padding: 0.6rem 1.2rem; font-size: 0.9rem;"}
 </div>
 
 ### 🎙️ Charlas y Videos
@@ -75,7 +109,10 @@ Transferencia de conocimiento a través de informes propios, conversatorios y pr
 :::
 
 <div style="text-align: right; margin-top: 20px;">
-[Ver todas las charlas →](charlas/index.qmd){.btn .btn-outline-primary .btn-sm}
+[Ver todas las charlas →](charlas/index.qmd){.btn-ghost style="padding: 0.6rem 1.2rem; font-size: 0.9rem;"}
 </div>
 
+:::
+
+:::
 :::
