@@ -2,6 +2,7 @@
 title: ""
 page-layout: custom
 section-divs: false
+css: assets/styles.scss
 toc: false
 listing:
   - id: latest-reports
