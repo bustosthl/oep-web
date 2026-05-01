@@ -3,7 +3,6 @@ title: ""
 page-layout: custom
 section-divs: false
 toc: false
-css: assets/styles.scss
 listing:
   - id: latest-reports
     contents: "informes/*/index.qmd"
