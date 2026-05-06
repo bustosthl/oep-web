@@ -23,6 +23,10 @@ listing:
 
 ::: {.hero-splash}
 
+::: {.logo-container}
+![](assets/images/oep-logo-transparente-2.png){alt="Logo OEP"}
+:::
+
 # Observatorio de Economía Política
 ### Facultad de Ciencias Sociales (UBA)
 
@@ -30,7 +34,7 @@ listing:
 
 ::: {.hero-actions}
 [Ver Informes](informes/index.qmd){.btn-brand}  
-[Sobre el OEP](about/index.qmd){.btn-outline-light}
+[Sobre el OEP](about/index.qmd){.btn-outline-dark}
 :::
 
 :::

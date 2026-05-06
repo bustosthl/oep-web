@@ -6,6 +6,7 @@ listing:
   sort: "date desc"
   filter-ui: true
   categories: false
+  fields: [date, title, subtitle, author]
 ---
 
 

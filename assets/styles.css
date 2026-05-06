@@ -10,7 +10,7 @@ body {
   background-color: #ffffff; 
   overflow-x: hidden; 
   letter-spacing: -0.01em; 
-  color: #2c3e50;
+  color: #2c3e50; /* Azul oscuro institucional por defecto */
   font-family: "Inter", "Aptos", "Segoe UI", Arial, sans-serif;
 }
 
@@ -67,7 +67,7 @@ body {
 }
 
 
-/* --- HERO SPLASH (Estilo moderno e imponente) --- */
+/* --- HERO SPLASH (Estilo moderno, IMPONENTE PERO SUAVE) --- */
 .hero-splash {
   width: 100%;
   min-height: 75vh;
@@ -76,24 +76,27 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: linear-gradient(135deg, #151d26 0%, #2c3e50 50%, #1a252f 100%);
+  /* Degradado suave: de un gris perla muy clarito a un tono apenas más oscuro, sin usar blanco */
+  background: radial-gradient(circle at center, #f8f9fa 0%, #e2e6ea 100%);
   position: relative;
   overflow: hidden;
   padding: 4rem 1.5rem;
+  color: #2c3e50; 
 }
 
+/* Resplandor naranja central PERFECTAMENTE suave, casi imperceptible */
 .hero-splash::before {
   content: "";
   position: absolute;
   width: 40vw;
   height: 40vw;
-  background: radial-gradient(circle, rgba(241,146,0,0.1) 0%, rgba(241,146,0,0) 65%);
+  background: radial-gradient(circle, rgba(241,146,0,0.06) 0%, rgba(241,146,0,0) 65%);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 0;
   border-radius: 50%;
-  filter: blur(30px); 
+  filter: blur(40px); 
   opacity: 0.8;
 }
 
@@ -117,18 +120,18 @@ body {
 .hero-splash h1 {
   position: relative;
   z-index: 1;
-  color: #ffffff;
+  color: #2c3e50; /* Azul oscuro institucional para el título */
   font-size: clamp(2.5rem, 6vw, 4.5rem);
   font-weight: 800;
   letter-spacing: -0.04em;
   margin-bottom: 0.5rem;
-  text-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  text-shadow: none; /* old shadow out, only for white text */
 }
 
 .hero-splash h3 {
   position: relative;
   z-index: 1;
-  color: #F19200;
+  color: #F19200; /* Naranja institucional para el kicker */
   font-size: clamp(1rem, 2.5vw, 1.4rem);
   font-weight: 600;
   letter-spacing: 0.08em;
@@ -139,7 +142,7 @@ body {
 .hero-splash .lead {
   position: relative;
   z-index: 1;
-  color: rgba(255, 255, 255, 0.85);
+  color: #5a6a7a; /* Gris slate suave para el texto principal de apoyo */
   font-size: clamp(1.1rem, 2.2vw, 1.3rem);
   max-width: 700px;
   margin: 0 auto 2.5rem auto;
@@ -156,24 +159,7 @@ body {
 }
 
 
-/* --- BOTONES --- */
-.btn-primary {
-  background-color: #2c3e50 !important;
-  border-color: #2c3e50 !important;
-  border-radius: 6px;
-  padding: 10px 25px;
-  transition: all 0.2s;
-}
-.btn-primary:hover {
-  background-color: #1a252f !important;
-  transform: scale(1.02);
-}
-
-.btn-outline-dark {
-  border-radius: 6px;
-  padding: 10px 25px;
-}
-
+/* --- BOTONES INSTITUCIONALES (Naranja y Azul) --- */
 .btn-brand { 
   display: inline-flex; 
   align-items: center; 
@@ -191,6 +177,40 @@ body {
   transform: translateY(-2px); 
   color: white; 
   box-shadow: 0 12px 25px rgba(241,146,0,.35); 
+}
+
+/* Botón secundario ajustado para fondo claro en el hero-splash */
+.btn-outline-dark { 
+  display: inline-flex; 
+  align-items: center; 
+  justify-content: center; 
+  background: transparent; 
+  color: #2c3e50; 
+  padding: .9rem 1.5rem; 
+  border-radius: 8px; 
+  border: 2px solid rgba(44,62,80,0.5); 
+  text-decoration: none; 
+  font-weight: 700; 
+  transition: all 0.3s ease; 
+}
+.btn-outline-dark:hover { 
+  background: rgba(44,62,80,0.05); 
+  border-color: #2c3e50; 
+  color: #2c3e50; 
+  transform: translateY(-2px); 
+}
+
+/* Conservando los estilos anteriores por compatibilidad */
+.btn-primary {
+  background-color: #2c3e50 !important;
+  border-color: #2c3e50 !important;
+  border-radius: 6px;
+  padding: 10px 25px;
+  transition: all 0.2s;
+}
+.btn-primary:hover {
+  background-color: #1a252f !important;
+  transform: scale(1.02);
 }
 
 .btn-outline-light { 
