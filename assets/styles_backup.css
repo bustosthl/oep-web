@@ -1,0 +1,83 @@
+/* --- CONFIGURACIÓN GLOBAL --- */
+body {
+  background-color: #ffffff;
+}
+
+/* --- NAVBAR (Identidad OEP) --- */
+.navbar {
+  background-color: #F19200 !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+  color: white !important;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #2c3e50 !important;
+}
+
+/* --- HERO BANNER (Sin puntos, con degradado sutil) --- */
+.hero-banner {
+  /* Un degradado muy suave de gris a blanco que da volumen */
+  background: linear-gradient(180deg, #eeeeee 0%, #f8f9fa 100%) !important;
+  padding: 80px 0;
+  text-align: center;
+  border-bottom: 1px solid #eaeaea;
+  margin-bottom: 40px;
+}
+
+.hero-text h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  letter-spacing: -1px;
+  color: #2c3e50;
+  margin-top: 20px;
+}
+
+/* --- BLOQUES DE CONTENIDO --- */
+.content-block {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* --- TARJETAS / GRIDS --- */
+/* Estilo general para todas las tarjetas */
+.quarto-grid-item {
+  border: none !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05) !important;
+  transition: all 0.3s ease !important;
+  border-radius: 12px !important;
+  background-color: white !important;
+}
+
+.quarto-grid-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0,0,0,0.1) !important;
+}
+
+/* Estilo específico para informes (barra lateral de color) */
+#latest-reports .quarto-grid-item {
+  border-left: 6px solid #2c3e50 !important;
+}
+
+/* --- BOTONES --- */
+.btn-primary {
+  background-color: #2c3e50 !important;
+  border-color: #2c3e50 !important;
+  border-radius: 6px;
+  padding: 10px 25px;
+  transition: all 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #1a252f !important;
+  transform: scale(1.02);
+}
+
+.btn-outline-dark {
+  border-radius: 6px;
+  padding: 10px 25px;
+}

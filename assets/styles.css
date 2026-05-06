@@ -1,7 +1,37 @@
-/* --- CONFIGURACIÓN GLOBAL --- */
-body {
-  background-color: #ffffff;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+/* --- CONFIGURACIÓN GLOBAL Y RESET --- */
+html, body { 
+  margin: 0; 
+  padding: 0; 
 }
+
+body { 
+  background-color: #ffffff; 
+  overflow-x: hidden; 
+  letter-spacing: -0.01em; 
+  color: #2c3e50;
+  font-family: "Inter", "Aptos", "Segoe UI", Arial, sans-serif;
+}
+
+.page-layout-custom main.content { 
+  max-width: 100%; 
+  width: 100%; 
+  margin: 0; 
+  padding: 0; 
+}
+
+#quarto-content { 
+  max-width: 100%; 
+  padding: 0; 
+}
+
+.content-block {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 
 /* --- NAVBAR (Identidad OEP) --- */
 .navbar {
@@ -18,9 +48,9 @@ body {
   color: #2c3e50 !important;
 }
 
-/* --- HERO BANNER (Sin puntos, con degradado sutil) --- */
+
+/* --- HERO BANNER (Estilo clásico) --- */
 .hero-banner {
-  /* Un degradado muy suave de gris a blanco que da volumen */
   background: linear-gradient(180deg, #eeeeee 0%, #f8f9fa 100%) !important;
   padding: 80px 0;
   text-align: center;
@@ -36,32 +66,95 @@ body {
   margin-top: 20px;
 }
 
-/* --- BLOQUES DE CONTENIDO --- */
-.content-block {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 20px;
+
+/* --- HERO SPLASH (Estilo moderno e imponente) --- */
+.hero-splash {
+  width: 100%;
+  min-height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(135deg, #151d26 0%, #2c3e50 50%, #1a252f 100%);
+  position: relative;
+  overflow: hidden;
+  padding: 4rem 1.5rem;
 }
 
-/* --- TARJETAS / GRIDS --- */
-/* Estilo general para todas las tarjetas */
-.quarto-grid-item {
-  border: none !important;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05) !important;
-  transition: all 0.3s ease !important;
-  border-radius: 12px !important;
-  background-color: white !important;
+.hero-splash::before {
+  content: "";
+  position: absolute;
+  width: 40vw;
+  height: 40vw;
+  background: radial-gradient(circle, rgba(241,146,0,0.1) 0%, rgba(241,146,0,0) 65%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  border-radius: 50%;
+  filter: blur(30px); 
+  opacity: 0.8;
 }
 
-.quarto-grid-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 12px 20px rgba(0,0,0,0.1) !important;
+.logo-container {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 2rem;
 }
 
-/* Estilo específico para informes (barra lateral de color) */
-#latest-reports .quarto-grid-item {
-  border-left: 6px solid #2c3e50 !important;
+.logo-container img {
+  width: clamp(200px, 25vw, 350px);
+  height: auto;
+  filter: drop-shadow(0 15px 25px rgba(0,0,0,0.3));
+  transition: transform 0.5s ease;
 }
+
+.logo-container img:hover {
+  transform: scale(1.05);
+}
+
+.hero-splash h1 {
+  position: relative;
+  z-index: 1;
+  color: #ffffff;
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.hero-splash h3 {
+  position: relative;
+  z-index: 1;
+  color: #F19200;
+  font-size: clamp(1rem, 2.5vw, 1.4rem);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 1.8rem;
+}
+
+.hero-splash .lead {
+  position: relative;
+  z-index: 1;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: clamp(1.1rem, 2.2vw, 1.3rem);
+  max-width: 700px;
+  margin: 0 auto 2.5rem auto;
+  line-height: 1.5;
+}
+
+.hero-actions {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 
 /* --- BOTONES --- */
 .btn-primary {
@@ -71,7 +164,6 @@ body {
   padding: 10px 25px;
   transition: all 0.2s;
 }
-
 .btn-primary:hover {
   background-color: #1a252f !important;
   transform: scale(1.02);
@@ -80,4 +172,140 @@ body {
 .btn-outline-dark {
   border-radius: 6px;
   padding: 10px 25px;
+}
+
+.btn-brand { 
+  display: inline-flex; 
+  align-items: center; 
+  justify-content: center; 
+  background: linear-gradient(135deg, #F19200 0%, #ffab33 100%); 
+  color: white; 
+  padding: .9rem 1.5rem; 
+  border-radius: 8px; 
+  text-decoration: none; 
+  font-weight: 700; 
+  box-shadow: 0 8px 20px rgba(241,146,0,.25); 
+  transition: all 0.3s ease; 
+}
+.btn-brand:hover { 
+  transform: translateY(-2px); 
+  color: white; 
+  box-shadow: 0 12px 25px rgba(241,146,0,.35); 
+}
+
+.btn-outline-light { 
+  display: inline-flex; 
+  align-items: center; 
+  justify-content: center; 
+  background: transparent; 
+  color: white; 
+  padding: .9rem 1.5rem; 
+  border-radius: 8px; 
+  border: 2px solid rgba(255,255,255,0.3); 
+  text-decoration: none; 
+  font-weight: 700; 
+  transition: all 0.3s ease; 
+}
+.btn-outline-light:hover { 
+  background: rgba(255,255,255,0.1); 
+  border-color: #ffffff; 
+  color: white; 
+  transform: translateY(-2px); 
+}
+
+.btn-ghost { 
+  display: inline-flex; 
+  align-items: center; 
+  justify-content: center; 
+  background: #2c3e50; 
+  color: white; 
+  padding: .9rem 1.25rem; 
+  border-radius: 8px; 
+  text-decoration: none; 
+  font-weight: 700; 
+  transition: all 0.3s ease; 
+}
+.btn-ghost:hover { 
+  background: #1a252f; 
+  color: white; 
+  transform: translateY(-2px); 
+  box-shadow: 0 8px 20px rgba(44,62,80,.2); 
+}
+
+
+/* --- SECCIONES GENERALES --- */
+.section { padding: 3rem 0 4.5rem; }
+.section-wrap { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; position: relative; z-index: 1;}
+.section-soft { background: #f8f9fa; border-top: 1px solid #eeeeee; border-bottom: 1px solid #eeeeee;}
+.section-cool { background: #ffffff; }
+
+.section-heading { margin-bottom: 2rem; }
+.section-heading h2 { 
+  font-size: clamp(2rem, 4vw, 3rem); 
+  letter-spacing: -0.03em; 
+  margin-bottom: .7rem; 
+  color: #1a252f; 
+}
+.section-kicker { 
+  display: inline-block; 
+  font-size: .88rem; 
+  font-weight: 700; 
+  letter-spacing: .12em; 
+  text-transform: uppercase; 
+  color: #F19200; 
+  margin-bottom: 1rem; 
+}
+
+
+/* --- GRILLAS Y TARJETAS (Ejes de Trabajo) --- */
+.values-grid { 
+  display: grid; 
+  gap: 1.4rem; 
+  grid-template-columns: repeat(3, minmax(0, 1fr)); 
+}
+
+.value-card { 
+  background: #ffffff; 
+  border: 1px solid #eaeaea; 
+  border-radius: 1rem; 
+  padding: 1.8rem 1.5rem; 
+  box-shadow: 0 10px 30px rgba(0,0,0,.04); 
+  min-height: 12rem; 
+  transition: transform 0.3s ease; 
+}
+.value-card:hover { transform: translateY(-5px); }
+.value-card h3 { letter-spacing: -0.02em; color: #2c3e50; font-size: 1.4rem; margin-bottom: 0.8rem;}
+.value-card p { color: #5a6a7a; margin-bottom: 1rem; font-size: 0.95rem; line-height: 1.5;}
+
+.value-card.oep-blue { 
+  border-top: 4px solid #2c3e50; 
+  background: linear-gradient(180deg, rgba(44,62,80,.02) 0%, #ffffff 40%); 
+}
+.value-card.oep-orange { 
+  border-top: 4px solid #F19200; 
+  background: linear-gradient(180deg, rgba(241,146,0,.03) 0%, #ffffff 40%); 
+}
+.value-card.oep-light { 
+  border-top: 4px solid #7f8c8d; 
+  background: linear-gradient(180deg, rgba(127,140,141,.03) 0%, #ffffff 40%); 
+}
+
+@media (max-width: 991px) {
+  .values-grid { grid-template-columns: 1fr; }
+}
+
+
+/* --- LISTINGS DE QUARTO (Informes y Charlas) --- */
+.quarto-grid-item { 
+  background-color: #ffffff !important; 
+  border-radius: 12px !important; 
+  border: 1px solid #eaeaea !important; 
+  border-left: 5px solid #2c3e50 !important; 
+  box-shadow: 0 8px 20px rgba(0,0,0,0.06) !important; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important; 
+}
+.quarto-grid-item:hover { 
+  transform: translateY(-4px); 
+  box-shadow: 0 12px 25px rgba(0,0,0,0.1) !important; 
+  border-left-color: #F19200 !important; 
 }
