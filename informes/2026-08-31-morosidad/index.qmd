@@ -1,0 +1,45 @@
+---
+title: "(re)clusión financiera: morosidad en la Argentina de hoy"
+author: 
+  - "Violeta Carrera Pereyra"
+  - "Tomás Bustos"
+date: 2026-08-31
+---
+
+> **Violeta Carrera Pereyra** - Graduada de la Carrera de Sociología. Integrante del Observatorio de Economía Política (FSOC). Investigadora del Instituto Argentina Grande.
+> 
+> **Tomás Bustos** – Graduado de la Carrera de Sociología e integrante del Observatorio de Economía Política (FSOC).
+
+***
+
+## 1. El estallido silencioso de las cuentas familiares
+
+La morosidad dejó de ser un problema marginal para transformarse en un drama de multitudes. Hoy, uno de cada cuatro deudores arrastra atrasos en sus pagos, arrastrando a más de cinco millones y medio de personas a la irregularidad ([IAG, 2026](https://argentinagrande.org/noticias/quienes-son-los-36-millones-de-deudores-irrecuperables)).
+
+## 2. La pinza macroeconómica: ingresos licuados y tasas por las nubes
+
+Este derrumbe responde a una pinza macroeconómica: el desmoronamiento de los ingresos frente al encarecimiento del dinero. Mientras los sueldos (sobre todo de los asalariados públicos) pierden poder de compra, las tasas de interés nominal promedio de la tarjeta de crédito en el 2025 se situó en el 89% y las de los créditos personales en el 74%, valores superiores a los peores picos del año 2019.
+
+## 3. El mapa de la exclusión
+
+El ahogo financiero se concentra en los jóvenes, cuya morosidad se ubica entre el 29 y el 37%, tres veces más que la otra punta de la pirámide poblacional. Por otro lado, la morosidad también se dispara dentro de entidades no bancarias (principalmente billeteras virtuales y casas de ventas de electrodomésticos), superando el 30%. Se detectan también particularidades regionales: provincias como La Rioja, Santa Cruz, Catamarca o Chaco encabezan el aumento interanual de personas en situación de morosidad, superando los 12 puntos porcentuales ([Dal Poggetto et al., 2026](https://www.austral.edu.ar/wp-content/uploads/2026/08/Dossier-ECOGO-FCE-Universidad-Austral_Credito-familias_JUN2026_FINAL.pdf)). La vulnerabilidad se potencia al cruzar clase social con segregación urbana. La morosidad en asentamientos populares supera en más de nueve puntos porcentuales a la registrada fuera de ellos, trepando al 26,5%.
+
+## 4. Del consumo aspiracional a la deuda de sacrificio
+
+El endeudamiento no es de por sí nocivo; el problema radica en la transición de un crédito aspiracional —orientado al progreso familiar— hacia un régimen de deuda de sacrificio ([Wilkis, 2026](https://www.revistaanfibia.com/el-sueldo-se-me-va-en-pagar-las-deudas/)). Hoy las familias no toman crédito para progresar, sino para sobrevivir: financiar el supermercado, pagar la luz o saldar préstamos anteriores. Es un mecanismo costoso que hipoteca el futuro inmediato para no caerse del mapa. El problema es doble: Argentina es uno de los países con menor porcentaje de crédito al sector privado sobre el PBI, y esto dificulta la capitalización de nuestras PyMEs y hace que el argentino que puede acceder a una casa lo haga pagando al contado, pero el aumento del crédito en estas condiciones -tal como sucedió en 2025- no hace más que agravar la precaria situación que viven los ingresos de los hogares argentinos.
+
+## 5. La acción de gobierno
+
+Ante la parálisis nacional que tacha la crisis de «asunto entre privados», algunas jurisdicciones ensayan respuestas. Se destaca el plan «Ponete al día» de la Provincia de Buenos Aires, el incentivo a refinanciaciones con tope de tasa en la Ciudad de Buenos Aires, y programas enfocados en empleados públicos en Santa Fe, Corrientes y Chubut. Con el programa brasileño «Desenrola» como referencia, el debate se instala en la agenda: 28 iniciativas de la oposición se acumulan en la Cámara de Diputados para abordar este tema, que barajan distintas formas de condonación parcial, fijación de tasas o desembolsos del Estado. Desde puntos de vista más ortodoxos, la propuesta es reducir la presión del IVA y los tributos provinciales sobre la financiación. Más allá de la propuesta operativa, el problema es reconocido de manera transversal por los distintos analistas. 
+
+## 6. La hipoteca del lazo social
+
+La morosidad récord no es una fricción pasajera de la macroeconomía, sino la base de un equilibrio inestable. Financiar la reproducción de la vida cotidiana mediante el endeudamiento crónico erosiona la convivencia colectiva. La deuda de sacrificio, lejos de ser un mero balance contable, constituye una de las preguntas políticas más urgentes de nuestro tiempo. 
+
+***
+
+## Referencias
+
+* **Dal Poggetto, M., Menescaldi, S., Balsells, S., & Masci, M. (2026).** *Crédito a las familias: monto consolidado y regional*. Eco Go y Universidad Austral. Disponible en: [Universidad Austral](https://www.austral.edu.ar/wp-content/uploads/2026/08/Dossier-ECOGO-FCE-Universidad-Austral_Credito-familias_JUN2026_FINAL.pdf)
+* **Rueda, C., & Carrera Pereyra, V. (2026).** *Quiénes son los 3,6 millones de deudores “irrecuperables”*. Instituto Argentina Grande [IAG]. Disponible en: [Instituto Argentina Grande](https://argentinagrande.org/noticias/quienes-son-los-36-millones-de-deudores-irrecuperables)
+* **Wilkis, A. (2026).** *El sueldo se me va en pagar las deudas*. Revista Anfibia. Disponible en: [Revista Anfibia](https://www.revistaanfibia.com/el-sueldo-se-me-va-en-pagar-las-deudas/)
