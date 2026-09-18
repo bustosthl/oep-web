@@ -1,0 +1,45 @@
+name: Actualizar Videos y Renderizar Quarto
+
+on:
+  schedule:
+    - cron: '0 9 * * 1' # Se ejecuta automáticamente todos los lunes a las 9:00 AM
+  workflow_dispatch: # Te permite ejecutarlo manualmente desde GitHub si lo necesitás
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Permiso para que el bot haga "commit" de los videos nuevos
+      pages: write    # Permiso para actualizar la web
+      
+    steps:
+      - name: Clonar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar R
+        uses: r-lib/actions/setup-r@v2
+
+      - name: Instalar paquetes de R
+        run: Rscript -e 'install.packages(c("tidyRSS", "dplyr", "yaml"))'
+
+      - name: Ejecutar script de scraping (sin API)
+        run: Rscript actualizar_videos.R
+
+      - name: Guardar los cambios (Commit automático de videos.yml)
+        run: |
+          git config --local user.name "GitHub Action Bot"
+          git config --local user.email "action@github.com"
+          git add videos.yml
+          # Solo hace commit si hay videos nuevos detectados
+          git commit -m "Actualización automática de videos" || echo "No hay cambios para subir"
+          git push
+
+      - name: Instalar Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Renderizar y publicar en GitHub Pages
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
