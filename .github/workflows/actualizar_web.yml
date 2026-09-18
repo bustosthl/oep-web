@@ -20,18 +20,22 @@ jobs:
         uses: r-lib/actions/setup-r@v2
 
       - name: Instalar paquetes de R
-        run: Rscript -e 'install.packages(c("tidyRSS", "dplyr", "yaml"))'
+        # Agregamos rvest y purrr para el nuevo script
+        run: Rscript -e 'install.packages(c("tidyRSS", "dplyr", "yaml", "rvest", "purrr"))'
 
-      - name: Ejecutar script de scraping (sin API)
-        run: Rscript charlas/actualizar_videos.R
+      - name: Ejecutar script de YouTube
+        run: Rscript charlas/actualizar_videos.R # Ajustá la ruta si cambiaste la carpeta
 
-      - name: Guardar los cambios (Commit automático de videos.yml)
+      - name: Ejecutar script de Medios
+        run: Rscript actualizar_medios.R # Ajustá la ruta si lo guardaste en otra carpeta
+
+      - name: Guardar los cambios (Commit automático)
         run: |
           git config --local user.name "GitHub Action Bot"
           git config --local user.email "action@github.com"
-          git add videos.yml
-          # Solo hace commit si hay videos nuevos detectados
-          git commit -m "Actualización automática de videos" || echo "No hay cambios para subir"
+          # Le decimos a git que guarde todos los archivos .yml que hayan cambiado
+          git add "**/*.yml"
+          git commit -m "Actualización automática de videos y medios" || echo "No hay cambios para subir"
           git push
 
       - name: Instalar Quarto
