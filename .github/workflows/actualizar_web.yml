@@ -27,7 +27,7 @@ jobs:
         run: Rscript charlas/actualizar_videos.R # Ajustá la ruta si cambiaste la carpeta
 
       - name: Ejecutar script de Medios
-        run: Rscript actualizar_medios.R # Ajustá la ruta si lo guardaste en otra carpeta
+        run: Rscript medios/actualizar_medios.R # Ajustá la ruta si lo guardaste en otra carpeta
 
       - name: Guardar los cambios (Commit automático)
         run: |
