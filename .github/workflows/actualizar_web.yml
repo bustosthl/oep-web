@@ -39,5 +39,5 @@ jobs:
           git config --local user.email "action@github.com"
           git add charlas/videos.yml medios/medios.yml docs/
           git commit -m "Actualización automática de videos, medios y sitio" || echo "No hay cambios para subir"
-          git pull --rebase origin main
+          git pull --rebase --autostash origin main
           git push origin main
