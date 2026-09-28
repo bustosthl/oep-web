@@ -37,3 +37,13 @@ jobs:
           git add "**/*.yml"
           git commit -m "Actualización automática de videos y medios" || echo "No hay cambios para subir"
           git push
+
+          - name: Instalar Quarto
+          uses: quarto-dev/quarto-actions/setup@v2
+  
+        - name: Renderizar y publicar en GitHub Pages
+          uses: quarto-dev/quarto-actions/publish@v2
+          with:
+            target: gh-pages
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
