@@ -1,4 +1,4 @@
-name: Actualizar Videos y Renderizar Quarto
+name: Actualizar Videos/Medios y Renderizar Quarto
 
 on:
   schedule:
