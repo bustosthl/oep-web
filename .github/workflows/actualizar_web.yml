@@ -9,9 +9,8 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Permiso para que el bot haga "commit" de los videos nuevos
-      pages: write    # Permiso para actualizar la web
-      
+      contents: write
+
     steps:
       - name: Clonar el repositorio
         uses: actions/checkout@v4
@@ -20,30 +19,24 @@ jobs:
         uses: r-lib/actions/setup-r@v2
 
       - name: Instalar paquetes de R
-        # Agregamos rvest y purrr para el nuevo script
         run: Rscript -e 'install.packages(c("tidyRSS", "dplyr", "yaml", "rvest", "purrr", "httr"))'
 
       - name: Ejecutar script de YouTube
-        run: Rscript charlas/actualizar_videos.R # Ajustá la ruta si cambiaste la carpeta
+        run: Rscript charlas/actualizar_videos.R
 
       - name: Ejecutar script de Medios
-        run: Rscript medios/actualizar_medios.R # Ajustá la ruta si lo guardaste en otra carpeta
+        run: Rscript medios/actualizar_medios.R
+
+      - name: Instalar Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Renderizar el sitio
+        uses: quarto-dev/quarto-actions/render@v2
 
       - name: Guardar los cambios (Commit automático)
         run: |
           git config --local user.name "GitHub Action Bot"
           git config --local user.email "action@github.com"
-          # Le decimos a git que guarde todos los archivos .yml que hayan cambiado
-          git add "**/*.yml"
-          git commit -m "Actualización automática de videos y medios" || echo "No hay cambios para subir"
+          git add charlas/videos.yml medios/medios.yml docs/
+          git commit -m "Actualización automática de videos, medios y sitio" || echo "No hay cambios para subir"
           git push
-
-          - name: Instalar Quarto
-          uses: quarto-dev/quarto-actions/setup@v2
-  
-        - name: Renderizar y publicar en GitHub Pages
-          uses: quarto-dev/quarto-actions/publish@v2
-          with:
-            target: gh-pages
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
