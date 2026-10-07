@@ -14,19 +14,18 @@ extraer_meta <- function(link) {
   respuesta <- tryCatch(GET(link, user_agent("Mozilla/5.0")), error = function(e) return(NULL))
   
   if(is.null(respuesta) || status_code(respuesta) != 200) {
-    return(list(title = "Portal no disponible", image = "", date = as.character(Sys.Date()), medio = "* Otro Medio"))
+    return(list(title = "Portal no disponible", image = "", date = "", medio = "* Otro Medio"))
   }
   
   texto_html <- content(respuesta, "text", encoding = "UTF-8")
   html <- read_html(texto_html)
   
-  # Título e Imagen
+  # Buscar metadatos
   title <- html %>% html_element('meta[property="og:title"]') %>% html_attr("content")
   image <- html %>% html_element('meta[property="og:image"]') %>% html_attr("content")
   
-  # Búsqueda encadenada de Fecha
+  # Intentar obtener la fecha desde distintas etiquetas
   date <- html %>% html_element('meta[property="article:published_time"]') %>% html_attr("content")
-  
   if(is.na(date) || is.null(date) || date == "") {
     date <- html %>% html_element('meta[name="parsely-pub-date"]') %>% html_attr("content")
   }
@@ -37,7 +36,7 @@ extraer_meta <- function(link) {
     date <- html %>% html_element('time') %>% html_attr("datetime")
   }
   
-  # Extracción de fecha por Regex de la URL (si falla el HTML)
+  # Si no hay fecha en el HTML, intentar extraerla de la URL
   if(is.na(date) || is.null(date) || date == "") {
     match_url <- regmatches(link, regexpr("20[0-9]{2}[0-1][0-9][0-3][0-9]", link))
     if(length(match_url) > 0) {
@@ -48,9 +47,9 @@ extraer_meta <- function(link) {
     }
   }
   
-  # Formatear la fecha
-  if(is.na(date) || is.null(date) || date == "") {
-    date <- as.character(Sys.Date())
+  # SI SIGUE SIN ENCONTRAR FECHA: dejarla vacía "" (no usar Sys.Date())
+  if(is.na(date) || is.null(date)) {
+    date <- ""
   } else {
     date <- substr(date, 1, 10)
   }
