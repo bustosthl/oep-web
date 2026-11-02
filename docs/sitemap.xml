@@ -1,87 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.oepsociologia.ar/about/index.html</loc>
-    <lastmod>2026-10-26T15:53:19.533Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.oepsociologia.ar/index_backup.html</loc>
-    <lastmod>2026-10-26T15:53:19.625Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.oepsociologia.ar/index_construccion.html</loc>
-    <lastmod>2026-10-26T15:53:19.625Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.oepsociologia.ar/investigacion/index.html</loc>
-    <lastmod>2026-10-26T15:53:19.660Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.oepsociologia.ar/index.html</loc>
-    <lastmod>2026-10-26T15:53:19.625Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.oepsociologia.ar/informes/2026-05-01-trabajo/index.html</loc>
-    <lastmod>2026-10-26T15:53:19.660Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.oepsociologia.ar/informes/2021-03-01-docentes/index.html</loc>
-    <lastmod>2026-10-26T15:53:19.651Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.oepsociologia.ar/informes/index.html</loc>
-    <lastmod>2026-10-26T15:53:19.660Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.oepsociologia.ar/informes/2019-10-01-energia/index.html</loc>
-    <lastmod>2026-10-26T15:53:19.628Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.oepsociologia.ar/informes/2026-03-24-fractura/index.html</loc>
-    <lastmod>2026-10-26T15:53:19.656Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.oepsociologia.ar/charlas/index.html</loc>
-    <lastmod>2026-10-26T15:53:19.536Z</lastmod>
+    <loc>https://www.oepsociologia.ar/index_nv.html</loc>
+    <lastmod>2026-11-02T19:13:18.146Z</lastmod>
   </url>
   <url>
     <loc>https://www.oepsociologia.ar/diplomatura/index.html</loc>
-    <lastmod>2026-10-26T15:53:19.536Z</lastmod>
+    <lastmod>2026-11-02T19:13:18.078Z</lastmod>
   </url>
   <url>
-    <loc>https://www.oepsociologia.ar/informes/2020-12-01-covid/index.html</loc>
-    <lastmod>2026-10-26T15:53:19.636Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.oepsociologia.ar/informes/2020-12-01-trabajo/index.html</loc>
-    <lastmod>2026-10-26T15:53:19.637Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.oepsociologia.ar/informes/2021-05-01-sputnik/index.html</loc>
-    <lastmod>2026-10-26T15:53:19.653Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.oepsociologia.ar/informes/2020-08-01-paso/index.html</loc>
-    <lastmod>2026-10-26T15:53:19.633Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.oepsociologia.ar/informes/2026-08-31-morosidad/index.html</loc>
-    <lastmod>2026-10-26T15:53:19.660Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.oepsociologia.ar/investigacion/jornadas/2025-08-31-jornadas/index.html</loc>
-    <lastmod>2026-10-26T15:53:19.661Z</lastmod>
+    <loc>https://www.oepsociologia.ar/investigacion/index.html</loc>
+    <lastmod>2026-11-02T19:13:18.171Z</lastmod>
   </url>
   <url>
     <loc>https://www.oepsociologia.ar/investigacion/jovenes-investigadores/index.html</loc>
-    <lastmod>2026-10-26T15:53:19.675Z</lastmod>
+    <lastmod>2026-11-02T19:13:18.183Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.oepsociologia.ar/index_backup.html</loc>
+    <lastmod>2026-11-02T19:13:18.146Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.oepsociologia.ar/informes/index.html</loc>
+    <lastmod>2026-11-02T19:13:18.171Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.oepsociologia.ar/informes/2026-05-01-trabajo/index.html</loc>
+    <lastmod>2026-11-02T19:13:18.171Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.oepsociologia.ar/informes/2021-05-01-sputnik/index.html</loc>
+    <lastmod>2026-11-02T19:13:18.166Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.oepsociologia.ar/informes/2020-12-01-covid/index.html</loc>
+    <lastmod>2026-11-02T19:13:18.154Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.oepsociologia.ar/informes/2021-03-01-docentes/index.html</loc>
+    <lastmod>2026-11-02T19:13:18.165Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.oepsociologia.ar/about/index.html</loc>
+    <lastmod>2026-11-02T19:13:18.075Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.oepsociologia.ar/index_construccion.html</loc>
+    <lastmod>2026-11-02T19:13:18.146Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.oepsociologia.ar/informes/2019-10-01-energia/index.html</loc>
+    <lastmod>2026-11-02T19:13:18.148Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.oepsociologia.ar/informes/2020-12-01-trabajo/index.html</loc>
+    <lastmod>2026-11-02T19:13:18.155Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.oepsociologia.ar/informes/2020-08-01-paso/index.html</loc>
+    <lastmod>2026-11-02T19:13:18.151Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.oepsociologia.ar/informes/2026-08-31-morosidad/index.html</loc>
+    <lastmod>2026-11-02T19:13:18.171Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.oepsociologia.ar/informes/2026-03-24-fractura/index.html</loc>
+    <lastmod>2026-11-02T19:13:18.168Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.oepsociologia.ar/charlas/index.html</loc>
+    <lastmod>2026-11-02T19:13:18.078Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.oepsociologia.ar/investigacion/jornadas/2025-08-31-jornadas/index.html</loc>
+    <lastmod>2026-11-02T19:13:18.172Z</lastmod>
   </url>
   <url>
     <loc>https://www.oepsociologia.ar/medios/index.html</loc>
-    <lastmod>2026-10-26T15:53:19.705Z</lastmod>
+    <lastmod>2026-11-02T19:13:18.205Z</lastmod>
   </url>
   <url>
-    <loc>https://www.oepsociologia.ar/index_nv.html</loc>
-    <lastmod>2026-10-26T15:53:19.625Z</lastmod>
+    <loc>https://www.oepsociologia.ar/index.html</loc>
+    <lastmod>2026-11-02T19:13:18.146Z</lastmod>
   </url>
 </urlset>
